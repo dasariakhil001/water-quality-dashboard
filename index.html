@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Water Quality Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>🌊 Water Quality Monitor</h1>
+        <div class="sensors">
+            <div class="card">
+                <h2>pH</h2>
+                <p id="ph">--</p>
+            </div>
+            <div class="card">
+                <h2>Turbidity (NTU)</h2>
+                <p id="turbidity">--</p>
+            </div>
+            <div class="card">
+                <h2>TDS (ppm)</h2>
+                <p id="tds">--</p>
+            </div>
+            <div class="card">
+                <h2>Temperature (°C)</h2>
+                <p id="temp">--</p>
+            </div>
+        </div>
+        <p id="update-time">Last updated: --</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
